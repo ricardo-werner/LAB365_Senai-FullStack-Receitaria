@@ -7,7 +7,7 @@ main {
     border-bottom: 2px solid black;
 }
 
-.container, .video, .conteudo-principal, .titulo-artigo {
+.container, .conteudo-principal, .titulo-artigo {
     display: flex;
     flex-direction: column;
     align-items: center;
