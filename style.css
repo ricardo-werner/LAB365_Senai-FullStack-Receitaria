@@ -7,7 +7,7 @@ main {
     border-bottom: 2px solid black;
 }
 
-.container, .conteudo-principal, .titulo-artigo {
+.container, .video, .conteudo-principal, .titulo-artigo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,13 +15,15 @@ main {
 }
 
 .cabecalho{
+    margin: 10px auto;
     font-size: 40px;
     font-weight: bold;
 }
 
 .video {
-    position: relative;
-    margin: 30px 250px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 .conteudo-principal {
